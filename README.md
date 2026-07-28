@@ -46,7 +46,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
         // Initialize EzyMMP SDK with your API key
-        // Default endpoint is https://ezyurl.io/api/v1/sdk
         EzyMMP.shared.configure(apiKey: "ezkey_YOUR_API_KEY")
         
         return true
