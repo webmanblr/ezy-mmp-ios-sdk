@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'EzyMMP'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'A lightweight iOS SDK for attributing app installs and tracking events with EzyURL.'
   s.homepage         = 'https://ezyurl.io/'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }

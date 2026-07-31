@@ -9,13 +9,13 @@
 1. In Xcode, open your project and navigate to **File > Add Packages...** (or select your project in the Project Navigator > **Package Dependencies**).
 2. Enter the repository URL:
    `https://github.com/webmanblr/ezy-mmp-ios-sdk.git`
-3. Set Dependency Rule to **Up to Next Major Version** (`1.0.1`) and click **Add Package**.
+3. Set Dependency Rule to **Up to Next Major Version** (`1.0.2`) and click **Add Package**.
 
 Or in `Package.swift`:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/webmanblr/ezy-mmp-ios-sdk.git", from: "1.0.1")
+    .package(url: "https://github.com/webmanblr/ezy-mmp-ios-sdk.git", from: "1.0.2")
 ]
 ```
 
@@ -26,7 +26,7 @@ dependencies: [
 Add the following to your `Podfile`:
 
 ```ruby
-pod 'EzyMMP', '~> 1.0.1'
+pod 'EzyMMP', '~> 1.0.2'
 ```
 
 Then run `pod install`.
